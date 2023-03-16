@@ -1,0 +1,13 @@
+﻿You must submit a brief (You're welcome!) report that details the parts of the project: 
+
+
+● that you were unable to finish : N/A
+
+
+● that have bugs that you have not yet been able to fix : I was unable to properly break ties between the ratings and alphabetically. The shell sort only sorts the compatibility_score, but messes up when it tries to break ties.
+
+
+● that use banned STL components (perhaps because you used them for placeholder implementations but didn’t have time to rewrite the code to remove them)
+
+
+To test treemm, in main i created a random tmm object and used the find and insert function for some random strings to ints. To test the UserDatabase, I inserted a couple random users objects and then retrieved them. To test the MovieDatabase, I wrote a program that asks me to retrieve all the movies from a director, actor, genre, or ID, and played around with it, retrieving various movies from given inputs from movie.txt. Finally I tested the Recommender with the test cases given as well as some ones that I made up that tests for ties between ratings and compatibility score.
